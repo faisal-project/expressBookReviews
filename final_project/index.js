@@ -30,7 +30,7 @@ app.use("/customer/auth/*", function auth(req,res,next){
 
     } else {
         return res.status(403).json({
-            message: "User not logged in"
+            message: "User not loggedin"
         });
     }
 });
